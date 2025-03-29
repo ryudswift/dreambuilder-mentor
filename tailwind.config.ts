@@ -71,6 +71,12 @@ export default {
 					border: '#D0C8B0',
 					muted: '#A8A295',
 					gradient: 'linear-gradient(180deg, #F5EFE0 0%, #EDE5D0 100%)',
+					yellow: {
+						DEFAULT: '#FFD700',
+						'10': 'rgba(255, 215, 0, 0.1)',
+						'20': 'rgba(255, 215, 0, 0.2)',
+						'50': 'rgba(255, 215, 0, 0.5)',
+					},
 				},
 			},
 			borderRadius: {
