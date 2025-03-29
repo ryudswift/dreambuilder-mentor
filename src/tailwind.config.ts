@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -67,6 +66,8 @@ export default {
 					yellow: {
 						DEFAULT: '#FFD700',
 						'10': 'rgba(255, 215, 0, 0.1)', // Adding opacity variation
+						'20': 'rgba(255, 215, 0, 0.2)',
+						'50': 'rgba(255, 215, 0, 0.5)',
 					},
 					light: '#FFFEF0',
 					dark: '#111111',
@@ -121,4 +122,3 @@ export default {
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
-
