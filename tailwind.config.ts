@@ -64,10 +64,13 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				coach: {
-					light: '#F5F5DC',
-					peach: '#FFDAB9',
-					dark: '#333333',
-					gradient: 'linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%)',
+					beige: '#F5EFE0',
+					light: '#F8F3E7',
+					dark: '#222222',
+					accent: '#444444',
+					border: '#D0C8B0',
+					muted: '#A8A295',
+					gradient: 'linear-gradient(180deg, #F5EFE0 0%, #EDE5D0 100%)',
 				},
 			},
 			borderRadius: {
