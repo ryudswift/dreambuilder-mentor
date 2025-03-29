@@ -64,7 +64,10 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				coach: {
-					yellow: '#FFD700',
+					yellow: {
+						DEFAULT: '#FFD700',
+						'10': 'rgba(255, 215, 0, 0.1)', // Adding opacity variation
+					},
 					light: '#FFFEF0',
 					dark: '#111111',
 					accent: '#222222',
@@ -118,3 +121,4 @@ export default {
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+
